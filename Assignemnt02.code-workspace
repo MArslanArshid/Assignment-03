@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"antlr4.debug": {
+			"visualParseTreeHorizontal": true,
+			"visualParseTreeClustered": false
+		},
+		"antlr4.generation": {
+			"outputDir": "C:/Users/arsla/Desktop/Assignment 01/Assignment 02/generated",
+			"mode": "external",
+			"language": "Java",
+			"listeners": true,
+			"visitors": true
+		},
+		"launch": {
+			"configurations": [
+				{
+					"type": "antlr-debug",
+					"request": "launch",
+					"name": "Debug PlusMult",
+					"grammar": "C:/Users/arsla/Desktop/Assignment 01/Assignment 02/OFP.g4",
+					"input": "C:/Users/arsla/Desktop/Assignment 01/Assignment 02/OFP_input.txt",
+					"visualParseTree": true
+
+				}
+			]
+		},
+		"java.project.referencedLibraries": [
+		"C:/Users/arsla/Desktop/Assignment 01/Assignment 02/install/antlr4-4.13.1.jar",
+		"C:/Users/arsla/Desktop/Assignment 01/Assignment 02/install/antlr4-runtime-4.13.1.jar",
+		"C:/Users/arsla/Desktop/Assignment 01/Assignment 02/install/org.abego.treelayout.core-1.0.3.jar"
+		],
+		"java.project.sourcePaths": ["."] // added this line 
+	}
+}

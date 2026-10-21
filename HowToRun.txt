@@ -1,0 +1,16 @@
+How to Run - OFP Compiler Frontend (Assignment 3)
+===================================================
+
+1. Open this project folder in VS Code (Java Extension Pack required).
+2. Open src/Main.java. In main(), set `testProgram` to the .ofp file
+   you want to test (place it in the project's root folder).
+3. Click the small "Run" button above main() to compile and run.
+   The console shows the symbol table, semantic checks, and total
+   error count.
+4. If "Total Semantic Errors: 0", a .py file with the same name is
+   generated in the project folder. In the terminal, run:
+       python <generated_file_name>.py
+   to see the program's output.
+
+Required libraries (already included in install/): antlr4-4.13.1.jar,
+antlr4-runtime-4.13.1.jar, org.abego.treelayout.core-1.0.3.jar.

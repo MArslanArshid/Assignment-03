@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "src.Main",
+            "projectName": "Assignment 03_37f35f1"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "src.Main",
+            "projectName": "Assignment 02_37f35f0"
+        },
+        {
+            "type": "antlr-debug",
+            "request": "launch",
+            "name": "Debug PlusMult",
+            "grammar": "C:/Users/arsla/Desktop/Assignment 01/Assignment 02/OFP.g4",
+            "input": "C:/Users/arsla/Desktop/Assignment 01/Assignment 02/OFP_input.txt",
+            "visualParseTree": true
+        }
+    ]
+}
